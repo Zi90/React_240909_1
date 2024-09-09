@@ -1,0 +1,113 @@
+.App{
+    width: 1000px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 70px;
+    font-weight: 700;
+    /* color 그라데이션 */
+    background: linear-gradient(to right top, #861657, #ffa69e);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 30px;
+}
+.createName{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(128, 128, 128, 0.075); */
+    border-radius: 15px;
+}
+.todoInput{
+    width: 250px;
+    height: 35px;
+    margin-right: 30px;
+    color: purple;
+    font-size: 25px;
+    font-weight: 550;
+    outline: none;
+    /* border 그라데이션 */
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to right top, #861657, #ffa69e);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.createButton{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    /* border 그라데이션 - button */
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #12c2e9, #c471ed, #f64f59);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.createButton:hover{
+    cursor: pointer;
+}
+.TodoUser{
+    font-size: 30px;
+    font-weight: 550;
+}
+.TodoContainer{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 80px;
+    /* border 그라데이션 */
+    border: 8px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to right top, #861657, #ffa69e);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.TodoContainer:nth-child(2n){
+        /* border 그라데이션 */
+        border: 8px solid transparent;
+        border-radius: 15px;
+        background-image: linear-gradient(#fff, #fff), linear-gradient(to left top, #861657, #ffa69e);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+}
+.TodoBody{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    color: #861657;
+}
+.delButton{
+    width: 70px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 550;
+    border: 5px solid white;
+    border-radius: 20px;
+    /* color 그라데이션 */
+    background: linear-gradient(to right top, #861657, #ffa69e);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.delButton:hover{
+    width: 70px;
+    height: 50px;
+    color: white;
+    /* border 그라데이션 - button */
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #12c2e9, #c471ed, #f64f59);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
